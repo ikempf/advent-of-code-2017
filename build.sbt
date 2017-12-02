@@ -8,5 +8,6 @@ lazy val advent = (project in file(".")).
       version      := "0.1.0-SNAPSHOT"
     )),
     name := "advent-of-code",
+    libraryDependencies += fastParse,
     libraryDependencies += scalaTest % Test
   )
